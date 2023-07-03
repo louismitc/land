@@ -18,14 +18,12 @@
     <meta name="twitter:description" content="{{ metadata.description }}">
     <meta name="twitter:image" content="{{ metadata.url }}{{ metadata.share }}">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@{{ metadata.social }}">
     <meta name="twitter:dnt" content="on">
     <title>{{ metadata.title }}</title>
     <link rel="icon" type="image/png" href="{{ metadata.favicon }}">
     <link rel="dns-prefetch" href="{{ metadata.url }}">
     <link rel="preconnect" href="{{ metadata.url }}">
     <link rel="me" href="{{ metadata.url }}" type="text/html">
-    <link rel="me" href="mailto:{{ metadata.mail }}">
     {% set css %}
       {% include "style.css" %}
     {% endset %}
