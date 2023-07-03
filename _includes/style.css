@@ -42,7 +42,7 @@ h3 {
 
 
 p {
-    display: block;
+    display: inline-block;
     margin: 0
 }
 
